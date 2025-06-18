@@ -1,0 +1,103 @@
+
+[
+  {
+    "id": 1,
+    "name": "XX99 Mark II Headphones",
+    "price": 2999,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600&h=600&fit=crop",
+    "category": "headphones",
+    "description": "The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
+    "featured": true,
+    "new": true
+  },
+  {
+    "id": 2,
+    "name": "XX99 Mark I Headphones",
+    "price": 1750,
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=600&fit=crop",
+    "category": "headphones",
+    "description": "As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados.",
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": 3,
+    "name": "XX59 Headphones",
+    "price": 899,
+    "image": "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=600&h=600&fit=crop",
+    "category": "headphones",
+    "description": "Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.",
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": 4,
+    "name": "HD 800 S Headphones",
+    "price": 1699,
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&h=600&fit=crop",
+    "category": "headphones",
+    "description": "Reference-class open-back headphones with innovative 56mm ring radiator drivers. Perfect for critical listening and professional audio work.",
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": 5,
+    "name": "ZX9 Speaker",
+    "price": 4500,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600&h=600&fit=crop",
+    "category": "speakers",
+    "description": "Upgrade your sound system with the all new ZX9 active bookshelf speaker. It's a bookshelf speaker system that offers truly wireless connectivity creating new possibilities for more pleasing and practical audio setups.",
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": 6,
+    "name": "ZX7 Speaker",
+    "price": 3500,
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=600&h=600&fit=crop",
+    "category": "speakers",
+    "description": "Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses high-end audiophile components that represents the perfect balance of functionality and aesthetics.",
+    "featured": true,
+    "new": false
+  },
+  {
+    "id": 7,
+    "name": "Monitor Audio Studio 89",
+    "price": 2800,
+    "image": "https://images.unsplash.com/photo-1558618047-d3a7c80b6b8a?w=600&h=600&fit=crop",
+    "category": "speakers",
+    "description": "Professional studio monitors with exceptional clarity and precision. Features advanced driver technology for accurate sound reproduction in critical listening environments.",
+    "featured": false,
+    "new": true
+  },
+  {
+    "id": 8,
+    "name": "Acoustic Reference AR5",
+    "price": 1999,
+    "image": "https://images.unsplash.com/photo-1564424224827-cd24b8915874?w=600&h=600&fit=crop",
+    "category": "speakers",
+    "description": "Floor-standing speakers with rich, warm sound signature. Perfect for home audio systems with deep bass response and crystal-clear highs.",
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": 9,
+    "name": "Compact Pro C2",
+    "price": 1299,
+    "image": "https://images.unsplash.com/photo-1572472913282-b87ef3c73374?w=600&h=600&fit=crop",
+    "category": "speakers",
+    "description": "Compact yet powerful bookshelf speakers designed for smaller spaces without compromising on sound quality. Ideal for desktop setups and near-field listening.",
+    "featured": false,
+    "new": false
+  },
+  {
+    "id": 10,
+    "name": "YX1 Wireless Earphones",
+    "price": 599,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&h=600&fit=crop",
+    "category": "earphones",
+    "description": "Tailor your listening experience with bespoke dynamic drivers from the new YX1 Wireless Earphones. Enjoy incredible high-fidelity sound even in noisy environments with its active noise cancellation feature.",
+    "featured": false,
+    "new": true
+  }
+]
