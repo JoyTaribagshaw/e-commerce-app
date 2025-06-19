@@ -1,5 +1,6 @@
 
 import React from 'react';
+import aboutImage from '@/assets/image-gallery-1.jpg';
 
 const AboutSection: React.FC = () => {
   return (
@@ -18,7 +19,7 @@ const AboutSection: React.FC = () => {
           
           <div className="order-1 lg:order-2">
             <img
-              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=600&h=400&fit=crop"
+              src={aboutImage}
               alt="Person using headphones"
               className="w-full h-96 object-cover rounded-lg"
             />
