@@ -2,6 +2,9 @@
 import React from 'react';
 import { Button } from './ui/button';
 import { ChevronRight } from 'lucide-react';
+import headphonesImage from '@/assets/image-product.jpg';
+import speakersImage from '@/assets/image-speaker-zx9.png';
+import earphonesImage from '@/assets/speaker-product.jpg';
 
 interface Category {
   name: string;
@@ -12,17 +15,17 @@ interface Category {
 const categories: Category[] = [
   {
     name: 'HEADPHONES',
-    image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=200&h=200&fit=crop',
+    image: headphonesImage,
     category: 'headphones'
   },
   {
     name: 'SPEAKERS',
-    image: 'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=200&h=200&fit=crop',
+    image: speakersImage,
     category: 'speakers'
   },
   {
     name: 'EARPHONES',
-    image: 'https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=200&h=200&fit=crop',
+    image: earphonesImage,
     category: 'earphones'
   }
 ];
@@ -42,7 +45,7 @@ const CategorySection: React.FC<CategorySectionProps> = ({ onShowProducts }) => 
                 <img
                   src={category.image}
                   alt={category.name}
-                  className="w-32 h-32 mx-auto object-cover rounded-full mb-6"
+                  className="w-32 h-32 mx-auto object-contain mb-6"
                 />
                 <h3 className="text-lg font-bold tracking-wider mb-4">{category.name}</h3>
                 <Button 

@@ -1,6 +1,9 @@
 
 import React from 'react';
 import { Button } from './ui/button';
+import zx9SpeakerImage from '@/assets/image-speaker-zx9.png';
+import zx7SpeakerImage from '@/assets/image-speaker-zx7.jpg';
+import yx1EarphonesImage from '@/assets/image-earphones-yx1.jpg';
 
 const FeaturedProducts: React.FC = () => {
   return (
@@ -11,9 +14,9 @@ const FeaturedProducts: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
             <div className="p-12 lg:p-16">
               <img
-                src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=400&fit=crop"
+                src={zx9SpeakerImage}
                 alt="ZX9 Speaker"
-                className="w-48 h-48 mx-auto lg:mx-0 object-cover rounded-full"
+                className="w-64 h-auto mx-auto lg:mx-0"
               />
             </div>
             <div className="p-12 lg:p-16 text-white">
@@ -31,29 +34,23 @@ const FeaturedProducts: React.FC = () => {
         </div>
 
         {/* ZX7 Speaker */}
-        <div className="bg-gray-100 rounded-lg p-12 lg:p-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div
+          className="relative rounded-lg p-12 lg:p-24 bg-cover bg-center"
+          style={{ backgroundImage: `url(${zx7SpeakerImage})` }}
+        >
             <div>
               <h2 className="text-3xl font-bold mb-8">ZX7 SPEAKER</h2>
               <Button variant="outline" className="border-black text-black hover:bg-black hover:text-white px-8 py-6 font-bold tracking-wider">
                 SEE PRODUCT
               </Button>
             </div>
-            <div className="flex justify-center">
-              <img
-                src="https://images.unsplash.com/photo-1545454675-3531b543be5d?w=400&h=300&fit=crop"
-                alt="ZX7 Speaker"
-                className="rounded-lg"
-              />
-            </div>
-          </div>
         </div>
 
         {/* YX1 Earphones */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="bg-gray-100 rounded-lg p-8">
             <img
-              src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=500&h=300&fit=crop"
+              src={yx1EarphonesImage}
               alt="YX1 Earphones"
               className="w-full h-64 object-cover rounded-lg"
             />
